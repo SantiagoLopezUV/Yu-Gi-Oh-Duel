@@ -6,7 +6,7 @@
 
 <br/>
 
-**mini-aplicación de escritorio en Java Swing que simula un combate estilo Pokémon Stadium entre dos Pokémon obtenidos en vivo desde PokeAPI [PokeAPI](https://pokeapi.co/).**
+**Mini-aplicación de escritorio en Java Swing que simula un duelo estilo Yu-Gi-Oh! entre dos monstruos obtenidos en vivo desde [YGOPRODeck API](https://ygoprodeck.com/api-guide/).**
 
 </div>
 
@@ -65,16 +65,16 @@ Si el nombre no existe, la API responde con código `404` y la aplicación muest
 ## Estructura del proyecto
 
 ```
-YGO-Battle/
+Yu-Gi-Oh-Due/
 ├── README.md
 ├── screenshots/
 └── src/
     ├── api/                        
-    │   ├── LoadCard.java           # reintentos y filtro de monstruos
+    │   ├── LoadCard.java           # Reintentos y filtro de monstruos
     │   ├── YgoApiClient.java       # Consumo HTTP 
     │   └── YgoApiParser.java       # Lectura del JSON y mapeo a la entidad Card
     ├── battle/
-    │   ├── Duel.java               # Lógica del duelo 
+    │   ├── Battle.java             # Lógica del duelo 
     │   └── BattleListener.java     # Interfaz Observer para notificar eventos a la GUI
     ├── exceptions/
     │   └── CardException.java      # Excepciones personalizadas para errores de juego y red
@@ -83,7 +83,8 @@ YGO-Battle/
     ├── model/
     │   └── Card.java               # Modelo de datos de la carta
     ├── ui/
-    │   └── YgoDuelFrame.java       # Ventana principal Swing, listeners y renderizado
+    │   ├── BoardCards.java         # Lógica de la interfaz
+    │   └── BoardCards.form         # Diseño del formulario (IntelliJ GUI Designer
     └── Main.java                   # Punto de entrada de la aplicación
 ```
 
