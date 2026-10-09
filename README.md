@@ -51,7 +51,7 @@ Los datos (nombre, tipo, ATK, DEF e imagen oficial) no están almacenados localm
 
 </div>
 
-## Uso de PokeAPI
+## Uso de YGOProDeck API
 
 El proyecto consume el endpoint de cartas aleatorias de la API pública YGOProDeck:
 
@@ -103,6 +103,8 @@ Yu-Gi-Oh-Due/
 > **Requisitos:** JDK 22 o superior y conexión a internet.
 
 ## Capturas
+![Pantalla principal](screenshots/home.png)
+![Combate](screenshots/fight.png)
 
 
 ## Equipo de desarrollo
