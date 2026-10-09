@@ -103,8 +103,8 @@ Yu-Gi-Oh-Due/
 > **Requisitos:** JDK 22 o superior y conexión a internet.
 
 ## Capturas
-![Pantalla principal](screenshots/home.png)
-![Combate](screenshots/fight.png)
+![Pantalla principal](screnshots/home.png)
+![Combate](screnshots/fight.png)
 
 
 ## Equipo de desarrollo
